@@ -1,0 +1,67 @@
+Final Project Proposal: Chatbot for Text Document Summarization
+Project Goal
+Develop a chatbot capable of summarizing text documents using two distinct approaches:
+
+Classical NLP-Based Approach: Utilize traditional techniques like tokenization, tagging, Naive Bayes, and logistic regression.
+Neural Network-Based Approach: Leverage advanced models such as RNNs or LSTMs for abstractive summarization.
+This dual approach allows for a comparative analysis of their effectiveness in summarization tasks.
+
+Relevant Work
+This project builds upon course topics like tokenization, part-of-speech tagging, classical machine learning algorithms, and neural network architectures (RNNs, LSTMs). Traditional NLP focuses on extractive summarization, while neural networks enable abstractive summarization.
+
+Project Modules and Team Responsibilities
+Module 1: Classical NLP-Based Summarization
+Tools to Use:
+
+Week 1–2:
+
+Word Tokenization: Break input text into individual tokens for analysis.
+Byte Pair Encoding (BPE): Handle rare and unknown words effectively.
+Week 3:
+
+Word Normalization: Convert words to a uniform form (e.g., stemming, lemmatization).
+POS Tagging: Identify grammatical roles of tokens for summarization relevance.
+NER (Named Entity Recognition): Extract entities to prioritize important sentences.
+Word Representation: Use discrete representations and distributional semantics to understand context.
+Week 4:
+
+Word2Vec/GloVe: Use word embeddings to evaluate contextual similarity and importance.
+Text Classification: Employ Naïve Bayes or Logistic Regression to rank sentences for extractive summarization.
+Evaluation: Use metrics like precision and recall to assess the quality of summaries.
+Team Responsibility:
+One team member will focus on implementing and optimizing these tools to generate concise summaries by selecting the most relevant sentences.
+
+Module 2: Neural Network-Based Summarization
+Tools to Use:
+
+RNN/LSTM: Develop a model to generate abstractive summaries by learning context and sequence patterns.
+Dynamic Embedding: Adapt word embeddings based on the context of each occurrence.
+Evaluation: Use metrics like ROUGE and BLEU to assess coherence and fluency.
+Team Responsibility:
+The second team member will train and evaluate neural models to summarize text effectively.
+
+Integration of Modules
+Both modules will be integrated into a chatbot interface using frameworks like Flask or Django. The chatbot will allow users to upload documents and select a preferred summarization method.
+
+Final Outcomes
+Trained Models: Classical NLP and neural network-based summarization tools.
+Chatbot Application: A functional interface for text document summarization.
+Comparative Analysis Report: Strengths, weaknesses, and trade-offs of the two approaches.
+Evaluation Plan
+Technical Performance:
+
+Use ROUGE, BLEU, precision, and recall to evaluate output quality.
+User Feedback:
+
+Conduct usability testing to gauge user satisfaction with the chatbot.
+Comparison Insights:
+
+Compare methods on factors like computational complexity, scalability, and output quality.
+This project promises both a technical challenge and practical insights into modern and traditional NLP techniques for text summarization.
+
+Next Steps for Module 1:
+
+Clearly define the dataset for summarization tasks.
+Decide how each tool (e.g., POS tagging, BPE) will directly contribute to the summarization pipeline.
+Plan integration of the outputs into a ranking system for extractive summarization.
+Let me know if you'd like further refinements or additional suggestions!
